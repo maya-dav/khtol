@@ -1,0 +1,120 @@
+@media(max-width:575px){
+  .navbar-light .navbar-toggler-icon {
+    background-image: none;
+  }
+  .navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+  }
+  .navbar-toggler {
+    font-size: none; 
+    line-height: 1.4;
+  }
+  .menu-bg ul{
+    margin-top: 10px;
+  }
+  .menu-bg ul li a{
+    text-align: center;
+  }
+  .banner_text p {
+    width: 394px;
+    margin-left: 75px;
+  }
+  .right {
+    top: 86%;
+    right: 204px;
+    font-size: 16px;
+    z-index: 1;
+  }
+  .left {
+    top: 86%;
+    left: 204px;
+    font-size: 16px;
+    z-index: 1;
+  }
+  #banner {
+    padding-top: 148px;
+    padding-bottom: 130px;
+    clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
+  }
+  .about_top {
+    padding: 20px 115px;
+  }
+  .about_top::before{
+    bottom: -36%;
+  }
+  .about_bottom::before {
+    top: -35%;
+  }
+  #portfolio {
+    clip-path: polygon(0 2%, 100% 0, 100% 98%, 0% 100%);
+  }
+  #service::after {
+    top: 254px;
+    left: 50%;
+    height: 530px;
+  }
+  .next {
+    top: 25%;
+    left: 47%;
+  }
+  .prev {
+    bottom: 46px;
+    left: 47%;
+  }
+  .padd {
+    margin-top: 17px;
+  }
+  .round {
+    margin-left: 283px;
+  }
+  #service .slick-center .round {
+    margin-left: 250px;
+    transform: scale(1.3);
+  }
+  .testi_main {
+    padding: 14px 22px;
+    margin-top: 28px;
+  }
+  .img_main::after{
+    background: none;
+  }
+  .up_arrow {
+    top: 6%;
+    left: 265px;
+  }
+  #counter {
+    clip-path: none;
+  }
+  .skew {
+    transform: none;
+  }
+  .bend {
+    transform: rotate(-5deg);
+  }
+  .contact_pera {
+    border-right: 1px solid transparent;
+  }
+
+  
+}
+
+@media(min-width:576px) and (max-width:767px){
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+  
+}
+
+@media(min-width:992px) and (max-width:1199px){
+  
+}
+
+@media(min-width:1200px) and (max-width:1399px){
+  
+}
+
+@media(min-width:1400px){
+
+}
